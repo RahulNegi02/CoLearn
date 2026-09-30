@@ -116,9 +116,9 @@
     const pathwayMarquee = document.querySelector(".home-partners .marquee .inner");
     const pathways = [
       { label: "NCCT courses", image: "/wp-content/uploads/pho/group-diverse-pupils-engaging-online-course-discussion-via-video-call_482257-123125.avif" },
-      { label: "Hydroelectric learning", image: "/Dam/Dam%20Simulation/mm/neue-energien/wasserkraft/asset/images/og-image-wasserkraft.jpg" },
-      { label: "Solar thermal learning", image: "/Solar/Solar%20Panel/mm/neue-energien/solarthermie/asset/images/pages/start/bg-start-page.png" },
-      { label: "Wind power learning", image: "/Wind%20Power/Wind%20Power/mm/neue-energien/windkraft/asset/images/pages/start/bg-start-page.png" },
+      { label: "Hydroelectric learning", image: "/Dam/Dam-Simulation/mm/neue-energien/wasserkraft/asset/images/og-image-wasserkraft.jpg" },
+      { label: "Solar thermal learning", image: "/Solar/Solar-Panel/mm/neue-energien/solarthermie/asset/images/pages/start/bg-start-page.png" },
+      { label: "Wind power learning", image: "/Wind-Power/Wind-Power/mm/neue-energien/windkraft/asset/images/pages/start/bg-start-page.png" },
       { label: "Career pathways", image: "/wp-content/uploads/pho/Online-Education-scaled-1.jpg" },
     ];
 
@@ -250,10 +250,10 @@
 
       if (!cards.querySelector("[data-career-category]")) {
         const opportunities = [
-          { title: "Mechanical Engineering Apprentice", location: "Leeds", type: "apprenticeship", category: "Apprenticeship", summary: "Learn maintenance, inspection and safe workshop practice with a qualified team.", image: "/Dam/Dam%20Simulation/mm/neue-energien/wasserkraft/asset/images/og-image-wasserkraft.jpg" },
+          { title: "Mechanical Engineering Apprentice", location: "Leeds", type: "apprenticeship", category: "Apprenticeship", summary: "Learn maintenance, inspection and safe workshop practice with a qualified team.", image: "/Dam/Dam-Simulation/mm/neue-energien/wasserkraft/asset/images/og-image-wasserkraft.jpg" },
           { title: "Manufacturing Operative", location: "Manchester", type: "entry-level", category: "Entry level", summary: "Build production experience, quality awareness and reliable site safety habits.", image: "/wp-content/uploads/pho/virtual-classroom-study-space_23-2149178640-a47e2601d8a84bc0851766cebe43e63b.webp" },
-          { title: "Wind Turbine Service Trainee", location: "Newcastle", type: "renewable", category: "Renewable energy", summary: "Start a practical pathway in inspections, maintenance and renewable generation.", image: "/Wind%20Power/Wind%20Power/mm/neue-energien/windkraft/asset/images/pages/start/bg-start-page.png" },
-          { title: "Solar Thermal Installation Assistant", location: "Bristol", type: "apprenticeship", category: "Apprenticeship", summary: "Support solar thermal installations while developing electrical and customer skills.", image: "/Solar/Solar%20Panel/mm/neue-energien/solarthermie/asset/images/pages/start/bg-start-page.png" },
+          { title: "Wind Turbine Service Trainee", location: "Newcastle", type: "renewable", category: "Renewable energy", summary: "Start a practical pathway in inspections, maintenance and renewable generation.", image: "/Wind-Power/Wind-Power/mm/neue-energien/windkraft/asset/images/pages/start/bg-start-page.png" },
+          { title: "Solar Thermal Installation Assistant", location: "Bristol", type: "apprenticeship", category: "Apprenticeship", summary: "Support solar thermal installations while developing electrical and customer skills.", image: "/Solar/Solar-Panel/mm/neue-energien/solarthermie/asset/images/pages/start/bg-start-page.png" },
           { title: "Site Safety Coordinator", location: "Birmingham", type: "engineering", category: "Engineering & Safety", summary: "Coordinate risk assessments, site inductions and safe systems of work across teams.", image: "/wp-content/uploads/pho/group-diverse-pupils-engaging-online-course-discussion-via-video-call_482257-123125.avif" },
           { title: "Electrical Maintenance Trainee", location: "Sheffield", type: "apprenticeship", category: "Apprenticeship", summary: "Master electrical diagrams, industrial wiring inspections and equipment maintenance.", image: "/wp-content/uploads/pho/front-view-stacked-books-graduation-cap-ladders-education-day.jpg" },
         ];
@@ -510,9 +510,9 @@
 
       if (q.includes("simulation") || q.includes("sim") || q.includes("vr") || q.includes("cardboard") || q.includes("3d") || q.includes("dam") || q.includes("wind") || q.includes("solar")) {
         return `You can launch 3 interactive energy simulations with video walkthroughs:\n\n` +
-          `â€¢ **<a href="/Dam/Dam%20Simulation/mm/neue-energien/wasserkraft/index.html" target="_blank">Hydroelectric Power Plant (Francis Turbine & Penstock) â†—</a>**\n` +
-          `â€¢ **<a href="/Solar/Solar%20Panel/mm/neue-energien/solarthermie/index.html" target="_blank">Solar Thermal Circulation (Vacuum Tube Collectors & Glycol Loop) â†—</a>**\n` +
-          `â€¢ **<a href="/Wind%20Power/Wind%20Power/mm/neue-energien/windkraft/index.html" target="_blank">Wind Power Generation (Aerodynamic Pitch & Yaw Controls) â†—</a>**\n\n` +
+          `â€¢ **<a href="/Dam/Dam-Simulation/mm/neue-energien/wasserkraft/index.html" target="_blank">Hydroelectric Power Plant (Francis Turbine & Penstock) â†—</a>**\n` +
+          `â€¢ **<a href="/Solar/Solar-Panel/mm/neue-energien/solarthermie/index.html" target="_blank">Solar Thermal Circulation (Vacuum Tube Collectors & Glycol Loop) â†—</a>**\n` +
+          `â€¢ **<a href="/Wind-Power/Wind-Power/mm/neue-energien/windkraft/index.html" target="_blank">Wind Power Generation (Aerodynamic Pitch & Yaw Controls) â†—</a>**\n\n` +
           `All simulations launch in a **new tab** and feature dedicated **video walkthroughs** on our **<a href="/academy/simulations/">Simulations Page</a>**.`;
       }
 

@@ -42,6 +42,28 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    {
+      "source": "/Dam/Dam%20Simulation/:path*",
+      "destination": "/Dam/Dam-Simulation/:path*"
+    },
+    {
+      "source": "/Solar/Solar%20Panel/:path*",
+      "destination": "/Solar/Solar-Panel/:path*"
+    },
+    {
+      "source": "/Wind%20Power/Wind%20Power/:path*",
+      "destination": "/Wind-Power/Wind-Power/:path*"
+    },
+    {
+      "source": "/Wind%20Power/:path*",
+      "destination": "/Wind-Power/:path*"
+    },
+    {
+      "source": "/global_assets/:path*",
+      "destination": "/global_assets/:path*"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -61,7 +83,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(woff|woff2|ttf|eot)",
+      "source": "/(.*)\\.(woff|woff2|ttf|eot|fbx|xml|json)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",

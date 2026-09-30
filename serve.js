@@ -3,9 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
-const ROOT = fs.existsSync(path.join(__dirname, 'optimisticfutures.co.uk', 'index.html'))
-  ? path.join(__dirname, 'optimisticfutures.co.uk')
-  : path.join(__dirname);
+const ROOT = __dirname;
 const PORT = 3000;
 
 const MIME = {
@@ -51,8 +49,17 @@ const server = http.createServer((req, res) => {
   } catch {
     res.writeHead(400); res.end('Invalid URL'); return;
   }
-  if (urlPath.startsWith('/global_assets/')) {
-    urlPath = `/Dam/Dam Simulation${urlPath}`;
+  if (urlPath.startsWith('/Dam/Dam Simulation/')) {
+    urlPath = urlPath.replace('/Dam/Dam Simulation/', '/Dam/Dam-Simulation/');
+  }
+  if (urlPath.startsWith('/Solar/Solar Panel/')) {
+    urlPath = urlPath.replace('/Solar/Solar Panel/', '/Solar/Solar-Panel/');
+  }
+  if (urlPath.startsWith('/Wind Power/Wind Power/')) {
+    urlPath = urlPath.replace('/Wind Power/Wind Power/', '/Wind-Power/Wind-Power/');
+  }
+  if (urlPath.startsWith('/Wind Power/')) {
+    urlPath = urlPath.replace('/Wind Power/', '/Wind-Power/');
   }
   if (urlPath.endsWith('/')) urlPath += 'index.html';
 

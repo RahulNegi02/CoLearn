@@ -67,7 +67,7 @@
       videoUrl: "https://www.youtube.com/results?search_query=hazard+identification+risk+assessment+construction",
       resourceUrl: "https://www.hse.gov.uk/risk/controlling-risks.htm",
       resourceText: "Open HSE Risk Control Guidance",
-      img: "/Wind%20Power/Wind%20Power/mm/neue-energien/windkraft/asset/images/pages/start/bg-start-page.png"
+      img: "/Wind-Power/Wind-Power/mm/neue-energien/windkraft/asset/images/pages/start/bg-start-page.png"
     },
     {
       num: "04",
@@ -97,7 +97,7 @@
       videoUrl: "https://www.youtube.com/results?search_query=CITB+health+safety+environment+test+revision",
       resourceUrl: "https://www.hse.gov.uk/pubns/priced/hsg150.pdf",
       resourceText: "Download Complete Construction Safety Reference (PDF)",
-      img: "/Dam/Dam%20Simulation/mm/neue-energien/wasserkraft/asset/images/og-image-wasserkraft.jpg"
+      img: "/Dam/Dam-Simulation/mm/neue-energien/wasserkraft/asset/images/og-image-wasserkraft.jpg"
     }
   ];
 
